@@ -1,0 +1,34 @@
+# Кешированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Секретные файлы (ОЧЕНЬ ВАЖНО!)
+credentials.json
+config.py
+.env
+*.key
+*.pem
+
+# Другие файлы
+*.log
+.cache/
+dist/
+build/
+*.egg-info/
